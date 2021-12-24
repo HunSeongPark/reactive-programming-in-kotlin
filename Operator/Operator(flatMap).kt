@@ -15,10 +15,15 @@ fun main() {
                 it.onNext(value)
                 it.onNext(value+1)
                 it.onNext(value+2)
+                it.onComplete()
             }
         }
         .subscribe ({
             println("onNext - $it")
+        }, {
+            println("onError!")
+        }, {
+            println("onComplete!")
         })
 }
 
@@ -34,3 +39,4 @@ fun main() {
 //onNext - 10
 //onNext - 11
 //onNext - 12
+//onComplete!
