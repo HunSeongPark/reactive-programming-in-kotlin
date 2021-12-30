@@ -5,4 +5,4 @@
 * [Cold Observable / Hot Observable](https://hungseong.tistory.com/46)                    
 * [연산자 - 필터링, 변환, 축소](https://hungseong.tistory.com/47)                             
 * [연산자 - 결합, 그룹핑, 필터링 응용, 오류처리](https://hungseong.tistory.com/48)                         
-* 동시성, 병렬처리, 비동기                                            
+* 비동기 처리                                                                    
